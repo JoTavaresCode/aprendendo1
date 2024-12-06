@@ -1,0 +1,77 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+}
+
+/* Cabeçalhos */
+h1 {
+    color: #444; /* Cor específica para títulos */
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #555;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6; /* Melhor legibilidade */
+    margin: 10px 20px;
+}
+
+/* Estilos de Div */
+div {
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Links */
+a {
+    color: #007BFF; /* Azul para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botões */
+button {
+    background-color: #007BFF; /* Azul */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Classes Personalizadas */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        font-size: 90%; /* Reduz o tamanho da fonte em telas menores */
+    }
+
+    div {
+        margin: 10px;
+        padding: 5px;
+    }
+}
